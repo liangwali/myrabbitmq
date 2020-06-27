@@ -40,11 +40,12 @@ class RabbitmaqApplicationTests {
 
     @Test
     public void testAmqpAdmin(){
+        //创建一个交换器
        // amqpAdmin.declareExchange(new DirectExchange("amqpAdmin.exchange"));
-
+              //创建一个消息队列
        // amqpAdmin.declareQueue(new Queue("amqpAdmin.queue1",true));
 
-
+                        //交换器绑定消息队列
        // amqpAdmin.declareBinding(new Binding("amqpAdmin.queue1",Binding.DestinationType.QUEUE,
         //        "amqpAdmin.exchange","amqpAdmin.qq",null));
 
